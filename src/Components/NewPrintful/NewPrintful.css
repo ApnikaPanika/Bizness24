@@ -1,0 +1,108 @@
+.pictureContainer{
+    position: relative;
+}
+
+.fakeElement{
+    background-color: white;
+    width: 1082px;
+    height: 495px;
+    position: absolute;
+    top: 381px;
+    left: 235px;
+    border-radius: 4px;
+    padding: 16px;
+
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.endHeader{
+    color: #1164a9;
+    font-size: 16px;
+}
+
+.itemContainer{
+    padding: 15px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.itemCard{
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    gap: 10px;
+    position: relative;
+}
+
+.itemPicture, .itemPictureEko{
+    width: 220px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.itemPictureEko{
+    position: relative;
+}
+
+.itemName{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.estimate{
+    color: gray;
+}
+
+.leafy{
+    background-color: white;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.submit{
+    width: 300px;
+    padding: 10px 0;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ecoTextoo{
+     background-color: green;
+     position: absolute;
+    top: -10px;
+    left: 45px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 50%;
+}

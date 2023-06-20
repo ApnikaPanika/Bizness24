@@ -1,0 +1,10 @@
+.imagino{
+    width: 150px;
+    padding: 10px;
+}
+
+.BigBigContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
